@@ -1,12 +1,16 @@
 
 
-import BgImage '../netflix-bg.jpg';
+import Bgimage from '../netflix-bg.jpg';
 
 import React from 'react'
 
 function Signup() {
   return (
-    <div>
+    <div className='netflix-signUp'>
+
+        <div className="neflix">
+            <img src={Bgimage} alt="" />
+        </div>
       
     </div>
   )
