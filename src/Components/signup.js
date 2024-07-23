@@ -10,6 +10,11 @@ function Signup() {
 
         <div className="neflix">
             <img src={Bgimage} alt="" />
+
+            <form action="">
+              <input type="text" placeholder='Enter username' />
+              <input type="password" placeholder='Enter password' />
+            </form>
         </div>
       
     </div>
